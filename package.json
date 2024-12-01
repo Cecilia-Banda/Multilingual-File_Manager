@@ -1,0 +1,36 @@
+{
+  "name": "multilingual-file_manager",
+  "version": "1.0.0",
+  "description": "A multi-user file manager application with multilingual support, file management, and a queuing system.",
+  "main": "src/app.js", 
+  "scripts": {
+    "start": "node src/app.js", 
+    "dev": "nodemon src/app.js", 
+    "test": "jest" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cecilia-Banda/Multilingual-File_Manager.git"
+  },
+  "keywords": ["node", "express", "redis", "i18n", "file-manager"],
+  "author": "Cecilia Munayani Banda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cecilia-Banda/Multilingual-File_Manager/issues"
+  },
+  "homepage": "https://github.com/Cecilia-Banda/Multilingual-File_Manager#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.5",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "i18next": "^21.6.0",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "jest": "^27.4.5"
+  }
+}
